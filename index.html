@@ -8,75 +8,224 @@
         <script src = "js/jquery.mobile-1.4.5.js"></script>
     </head>
     <body>
+        
 
 
 
 
-        <!-- Start of first page -->
-        <div data-role="page" id="menu">
+        <!-- Login page -->
+        <div data-role="page" id="starting_page">
         
             <div data-role="header">
                 <h1>NP Food Club</h1>
             </div><!-- /header -->
         
             <div role="main" class="ui-content">
-                <p>I'm first in the source order so I'm shown as the page.</p>
-                <a href="#bar" data-transition="pop" class = "ui-btn">Login</a>
-                <a href="#page3" data-transition="pop" class = "ui-btn">Register</a>
+                <p>Welcome to NP Food Club</p>
+                <a href="#stalls" data-transition="pop" class = "ui-btn">Login</a>
+                <a href="#" data-transition="pop" class = "ui-btn">Register</a>
 
             </div><!-- /content -->
         
             <div data-role="footer" data-position = "fixed">
-                <h4>Page Footer</h4>
+                <h4>IMP 2019 @ NP</h4>
             </div><!-- /footer -->
         </div><!-- /page -->    
         
 
-        <!-- Start of second page -->
-        <div data-role="page" id="bar">
+
+
+
+        <!-- Home page - Stalls -->
+        <div data-role="page" id="stalls">
         
                 <div data-role="header">
-                <a href="#menu" data-transition="slide" data-direction="reverse" class = "ui-btn"><</a>
-
-                    <h1>Page2</h1>
+                <a href="#starting_page" data-transition="slide" data-direction="reverse" class = "ui-btn"><</a>
+    
+                    <h1>Stalls</h1>
                 </div><!-- /header -->
+            
+                    
 
+                <button style = "width: 180px; height: 150px; margin-left: 50px; margin-top: 20px;" onclick = "window.location.href = '#stall1'" >Stall 1</button>
+
+                <button style = "width: 180px; height: 150px; margin-left: 280px; margin-top: -158px;" onclick = "window.location.href = '#stall2'">Stall2</button>
+
+
+                <button style = "width: 180px; height: 150px; margin-left: 50px; margin-top: 20px;" onclick = "window.location.href = '#stall3'">Stall 3</button>
+
+                <button style = "width: 180px; height: 150px; margin-left: 280px; margin-top: -158px;" onclick = "window.location.href = '#stall4'">Stall 4</button>
+
+                <button style = "width: 180px; height: 150px; margin-left: 50px; margin-top: 20px;" onclick = "window.location.href = '#stall5'">Stall 5</button>
+
+                <button style = "width: 180px; height: 150px; margin-left: 280px; margin-top: -158px;" onclick = "window.location.href = '#stall6'">Stall 6</button>
+
+                <button style = "width: 180px; height: 150px; margin-left: 50px; margin-top: 20px;" onclick = "window.location.href = '#stall7'">Stall 7</button>
+
+            
+                <div data-role="footer" data-position = "fixed">
+                    <h4>IMP 2019 @NP</h4>
+                </div><!-- /footer -->
+            </div><!-- /page -->
+        
+
+
+
+
+
+                <!-- Start of stall 1 page -->
+        <div data-role="page" id="stall1">
+        
+            <div data-role="header">
+            <a href="#stalls" data-transition="slide" data-direction="reverse" class = "ui-btn"><</a>
+
+                <h1>Stall 1 Name</h1>
+            </div><!-- /header -->
+        
+            <div role="main" class="ui-content">
+                <p>List of food items</p>
+            </div><!-- /content -->
+        
+            <div data-role="footer" data-position = "fixed">
+                <h4>IMP 2019 @ NP</h4>
+            </div><!-- /footer -->
+        </div><!-- /page -->
+        
+
+
+
+
+         <!-- Start of stall 2 page -->
+       
+        <div data-role="page" id="stall2">
+        
+                <div data-role="header">
+                <a href="#stalls" data-transition="slide" data-direction="reverse" class = "ui-btn"><</a>
+    
+                    <h1>Stall 2 Name</h1>
+                </div><!-- /header -->
+            
                 <div role="main" class="ui-content">
-                    <p>I'm the second in the source order so I'm hidden when the page loads. I'm just shown if a link that references my id is beeing clicked.</p>
+                    <p>List of food items</p>
                 </div><!-- /content -->
             
                 <div data-role="footer" data-position = "fixed">
-                    <h4>Page Footer</h4>
+                    <h4>IMP 2019 @ NP</h4>
+                </div><!-- /footer -->
+            </div><!-- /page -->
+        
+
+
+
+
+         <!-- Start of stall 3 page -->
+
+        <div data-role="page" id="stall3">
+    
+                <div data-role="header">
+                <a href="#stalls" data-transition="slide" data-direction="reverse" class = "ui-btn"><</a>
+    
+                    <h1>Stall 3 Name</h1>
+                </div><!-- /header -->
+            
+                <div role="main" class="ui-content">
+                    <p>List of food items</p>
+                </div><!-- /content -->
+            
+                <div data-role="footer" data-position = "fixed">
+                    <h4>IMP 2019 @ NP</h4>
+                </div><!-- /footer -->
+            </div><!-- /page -->        
+
+
+
+         <!-- Start of stall 4 page -->
+ 
+        <div data-role="page" id="stall4">
+    
+                <div data-role="header">
+                <a href="#stalls" data-transition="slide" data-direction="reverse" class = "ui-btn"><</a>
+    
+                    <h1>Stall 4 Name</h1>
+                </div><!-- /header -->
+            
+                <div role="main" class="ui-content">
+                    <p>List of food items</p>
+                </div><!-- /content -->
+            
+                <div data-role="footer" data-position = "fixed">
+                    <h4>IMP 2019 @ NP</h4>
+                </div><!-- /footer -->
+            </div><!-- /page -->
+        
+
+
+
+
+          <!-- Start of stall 5 page -->
+
+        <div data-role="page" id="stall5">
+
+                <div data-role="header">
+                <a href="#stalls" data-transition="slide" data-direction="reverse" class = "ui-btn"><</a>
+    
+                    <h1>Stall 5 Name</h1>
+                </div><!-- /header -->
+            
+                <div role="main" class="ui-content">
+                    <p>List of food items</p>
+                </div><!-- /content -->
+            
+                <div data-role="footer" data-position = "fixed">
+                    <h4>IMP 2019 @ NP</h4>
+                </div><!-- /footer -->
+            </div><!-- /page -->
+        
+
+
+
+
+         <!-- Start of stall 6 page -->
+
+        <div data-role="page" id="stall6">
+
+                <div data-role="header">
+                <a href="#stalls" data-transition="slide" data-direction="reverse" class = "ui-btn"><</a>
+    
+                    <h1>Stall 6 Name</h1>
+                </div><!-- /header -->
+            
+                <div role="main" class="ui-content">
+                    <p>List of food items</p>
+                </div><!-- /content -->
+            
+                <div data-role="footer" data-position = "fixed">
+                    <h4>IMP 2019 @ NP</h4>
                 </div><!-- /footer -->
             </div><!-- /page -->
     
 
-        
-        <!-- Start of third page -->
-        <div data-role="page" id="page3">
-        
-            <div data-role="header">
-            <a href="#menu" data-transition="slide" data-direction="reverse" class = "ui-btn"><</a>
-
-                <h1>Page3</h1>
-            </div><!-- /header -->
-        
-            <div role="main" class="ui-content">
-                <p>I'm the second in the source order so I'm hidden when the page loads. I'm just shown if a link that references my id is beeing clicked.</p>
-            </div><!-- /content -->
-        
-            <div data-role="footer" data-position = "fixed">
-                <h4>Page Footer</h4>
-            </div><!-- /footer -->
-        </div><!-- /page -->
 
 
 
+         <!-- Start of stall 7 page -->
 
+        <div data-role="page" id="stall7">
 
-
-
-
-
+                <div data-role="header">
+                <a href="#stalls" data-transition="slide" data-direction="reverse" class = "ui-btn"><</a>
+    
+                    <h1>Stall 7 Name</h1>
+                </div><!-- /header -->
+            
+                <div role="main" class="ui-content">
+                    <p>List of food items</p>
+                </div><!-- /content -->
+            
+                <div data-role="footer" data-position = "fixed">
+                    <h4>IMP 2019 @ NP</h4>
+                </div><!-- /footer -->
+            </div><!-- /page -->     
+    
         </body>
 </html>
