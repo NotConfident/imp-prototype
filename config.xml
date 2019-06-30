@@ -10,8 +10,7 @@
 	</author>
 
 	<platform name="android" />
-	<platform name="ios" />
-	<platform name="winphone" />
+
 
 	<feature name="http://api.phonegap.com/1.0/network" />
 	<feature name="http://api.phonegap.com/1.0/camera" />
@@ -22,6 +21,6 @@
 	<feature name="http://api.phonegap.com/1.0/file" />
 	<feature name="http://api.phonegap.com/1.0/battery" />
 	<feature name="http://api.phonegap.com/1.0/device" />
-	
+
 	<preference name="phonegap-version" value="cli-8.1.1" />
 </widget>
