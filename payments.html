@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset = "utf - 8">
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1">
+        <link rel = "stylesheet" href = "css/jquery.mobile-1.4.5.css">
+        <script src = "js/jquery.js"></script>
+        <script src = "js/jquery.mobile-1.4.5.js"></script>
+        <script src = "js/increment.js"></script>
+        <style>
+            #Credit{
+                margin-top: -80px;
+                margin-left: 160px;
+            }
+            #Paylah{
+                margin-top: 50px;
+                margin-left: 160px;
+            }
+
+            #Paynow{
+                margin-top: -50px;
+                margin-left: 160px;
+            }
+
+            #Credit a{
+                color: black;
+                font-weight: normal;
+
+            }
+            #Paylah a{
+                color: black;
+                font-weight: normal;
+
+            }
+
+            #Paynow a{
+                color: black;
+                font-weight: normal;
+            }
+        </style>
+    </head>
+    <body>
+        
+
+
+
+
+        <!-- Login page -->
+        <div data-role="page" id="starting_page">
+        
+            <div data-role="header">
+                <a href = "stalls.html" data-transition="slide" data-direction="reverse" class = "ui-btn"><</a>
+
+                <h1>NP Food Club</h1>
+            </div><!-- /header -->
+        
+            <div role="main" class="ui-content">
+
+            <img src = "Pics/credit-card.png">
+            <h2 id = "Credit"><a onclick = "payment_CC()">Credit / Debit Card</a></h2>
+            
+            <br><br><br>
+
+            <h2 id = "Paylah"><a onclick = "payment_Paylah()">Paylah</a></h2>
+            <img style = "width: 55%; margin-left: -65px; margin-top: -100px;" src = "Pics/paylah_logo.png">
+              
+            <br><br><br><br>
+            <img style = "width: 25%; margin-left: 15px;" src = "Pics/paynow.png">
+            <h2 id = "Paynow"><a onclick = "payment_Paynow()">Paynow</a></h2>
+
+
+            </div><!-- /content -->
+        
+            <div data-role="footer" data-position = "fixed">
+                <h4>IMP 2019 @ NP</h4>
+            </div><!-- /footer -->
+        </div><!-- /page -->    
+    
+        </body>
+</html>

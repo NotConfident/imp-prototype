@@ -6,6 +6,98 @@
         <link rel = "stylesheet" href = "css/jquery.mobile-1.4.5.css">
         <script src = "js/jquery.js"></script>
         <script src = "js/jquery.mobile-1.4.5.js"></script>
+        <style>
+        #login{
+            width: 50%;
+            margin-left: 100px;
+            margin-top: -80px;
+            border-radius: 50px;
+            color: white;
+            border: none;
+            background-color: orange;
+            font-weight: normal;
+            font-family: 'Courier New', Courier, monospace;
+            animation: login 8s;
+        }
+
+        @keyframes login {
+            0%{
+                opacity: 0;
+            } 
+            
+            50%{
+                opacity: 0;
+            }
+
+            75%{
+                opacity: 1;
+            }
+
+            100%{
+                opacity: 1;
+            }
+        }
+
+        .overallpic{
+            background-image: url(Pics/Customer1.png);
+            background-repeat: no-repeat;
+            background-size: 110%;
+        }
+
+        #one{
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 70px;
+            color: white;   
+            animation: one 2.5s;
+            text-align: center;
+        }
+
+        @keyframes one {
+            0%{
+                opacity: 0;
+            } 
+            
+            100%{
+                opacity: 1
+            }
+        }
+
+        #two{
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 60px;
+            color: white;   
+            animation: two 2.5s;
+            text-align: center;
+        }
+
+        @keyframes two {
+            0%{
+                opacity: 0;
+            } 
+            
+            100%{
+                opacity: 1
+            }
+        }
+
+        #three{
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 60px;
+            color: white;   
+            animation: three 2.5s;
+            text-align: center;
+        }
+
+        @keyframes three {
+            0%{
+                opacity: 0;
+            } 
+            
+            100%{
+                opacity: 1
+            }
+        }
+        </style>
     </head>
     <body>
         
@@ -14,169 +106,25 @@
 
 
         <!-- Login page -->
-        <div data-role="page" id="starting_page">
-        
+        <div class = "overallpic" data-role="page">
             <div data-role="header">
                 <h1>NP Food Club</h1>
             </div><!-- /header -->
-        
+            <p id = "one">LETS</p>
+            <p id = "two">REVOLUTIONIZE</p>
+            <p id = "three">FOOD ORDERING</p>
             <div role="main" class="ui-content">
-                <p>Welcome to NP Food Club</p>
-                <a href="Login.html" data-transition="pop" class = "ui-btn">Login</a>
-                <a href="#" data-transition="pop" class = "ui-btn">Register</a>
+                <br><br><br><br><br>
+                <a id = "login" href="Login.html" data-transition="pop" class = "ui-btn">Get Started</a>
+            </div>
+            
+            <div data-role="footer" data-position = "fixed">
+                    <h4>IMP 2019 @ NP</h4>
+                </div><!-- /footer -->
 
             </div><!-- /content -->
-        
-            <div data-role="footer" data-position = "fixed">
-                <h4>IMP 2019 @ NP</h4>
-            </div><!-- /footer -->
+
+            
         </div><!-- /page -->    
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-         <!-- Start of stall 2 page -->
-       
-        <div data-role="page" id="stall2">
-        
-                <div data-role="header">
-                <a href="#stalls" data-transition="slide" data-direction="reverse" class = "ui-btn"><</a>
-    
-                    <h1>Stall 2 Name</h1>
-                </div><!-- /header -->
-            
-                <div role="main" class="ui-content">
-                    <p>List of food items</p>
-                </div><!-- /content -->
-            
-                <div data-role="footer" data-position = "fixed">
-                    <h4>IMP 2019 @ NP</h4>
-                </div><!-- /footer -->
-            </div><!-- /page -->
-        
-
-
-
-
-         <!-- Start of stall 3 page -->
-
-        <div data-role="page" id="stall3">
-    
-                <div data-role="header">
-                <a href="#stalls" data-transition="slide" data-direction="reverse" class = "ui-btn"><</a>
-    
-                    <h1>Stall 3 Name</h1>
-                </div><!-- /header -->
-            
-                <div role="main" class="ui-content">
-                    <p>List of food items</p>
-                </div><!-- /content -->
-            
-                <div data-role="footer" data-position = "fixed">
-                    <h4>IMP 2019 @ NP</h4>
-                </div><!-- /footer -->
-            </div><!-- /page -->        
-
-
-
-         <!-- Start of stall 4 page -->
- 
-        <div data-role="page" id="stall4">
-    
-                <div data-role="header">
-                <a href="#stalls" data-transition="slide" data-direction="reverse" class = "ui-btn"><</a>
-    
-                    <h1>Stall 4 Name</h1>
-                </div><!-- /header -->
-            
-                <div role="main" class="ui-content">
-                    <p>List of food items</p>
-                </div><!-- /content -->
-            
-                <div data-role="footer" data-position = "fixed">
-                    <h4>IMP 2019 @ NP</h4>
-                </div><!-- /footer -->
-            </div><!-- /page -->
-        
-
-
-
-
-          <!-- Start of stall 5 page -->
-
-        <div data-role="page" id="stall5">
-
-                <div data-role="header">
-                <a href="#stalls" data-transition="slide" data-direction="reverse" class = "ui-btn"><</a>
-    
-                    <h1>Stall 5 Name</h1>
-                </div><!-- /header -->
-            
-                <div role="main" class="ui-content">
-                    <p>List of food items</p>
-                </div><!-- /content -->
-            
-                <div data-role="footer" data-position = "fixed">
-                    <h4>IMP 2019 @ NP</h4>
-                </div><!-- /footer -->
-            </div><!-- /page -->
-        
-
-
-
-
-         <!-- Start of stall 6 page -->
-
-        <div data-role="page" id="stall6">
-
-                <div data-role="header">
-                <a href="#stalls" data-transition="slide" data-direction="reverse" class = "ui-btn"><</a>
-    
-                    <h1>Stall 6 Name</h1>
-                </div><!-- /header -->
-            
-                <div role="main" class="ui-content">
-                    <p>List of food items</p>
-                </div><!-- /content -->
-            
-                <div data-role="footer" data-position = "fixed">
-                    <h4>IMP 2019 @ NP</h4>
-                </div><!-- /footer -->
-            </div><!-- /page -->
-    
-
-
-
-
-         <!-- Start of stall 7 page -->
-
-        <div data-role="page" id="stall7">
-
-                <div data-role="header">
-                <a href="#stalls" data-transition="slide" data-direction="reverse" class = "ui-btn"><</a>
-    
-                    <h1>Stall 7 Name</h1>
-                </div><!-- /header -->
-            
-                <div role="main" class="ui-content">
-                    <p>List of food items</p>
-                </div><!-- /content -->
-            
-                <div data-role="footer" data-position = "fixed">
-                    <h4>IMP 2019 @ NP</h4>
-                </div><!-- /footer -->
-            </div><!-- /page -->     
-    
         </body>
 </html>

@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset = "utf - 8">
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1">
+        <link rel = "stylesheet" href = "css/jquery.mobile-1.4.5.css">
+        <script src = "js/jquery.js"></script>
+        <script src = "js/jquery.mobile-1.4.5.js"></script>
+        <script src = "js/increment.js"></script>
+        <style type="text/css">
+            #BanMian{
+                background-image:url(Pics/BanMian.jpeg);
+                background-size: 120%;
+                filter: brightness(90%);
+            }
+
+            .BanMian{
+                background-size: 120%;
+                filter: brightness(90%);
+                border: 1px solid black;
+                padding: 65px;
+            }
+            
+            .close{
+                margin-left: 250px;
+                margin-top: -130px;
+            }
+            
+            #backtohome{
+                margin-top: -100px;
+                margin-left: 90px;
+                width: 55%;
+                background-color: maroon;
+                color: white;
+                font-weight: normal;
+                font-family: 'Courier New', Courier, monospace;
+            }
+
+
+        </style>
+    </head>
+        <body>
+                <!-- Start of stall 1 page -->
+                <div data-role="page" id="mycart">
+                                
+                        <div data-role="header">
+                                <a href = "stalls.html" data-transition="slide" data-direction="reverse" class = "ui-btn"><</a>
+                    
+                                    <h1>My Orders</h1>
+                                </div><!-- /header -->     
+                                <h3>Current Ongoing Orders</h3>
+
+                                <br><br><br>
+
+                                <div class = "BanMian">
+                                </div>
+
+                                <button id = "BanMian" style = 
+                                "width: 220px;
+                                height: 130px; 
+                                margin-top: -131px;
+                                border-radius: 0px;">
+                                </button>
+
+                                <div class = "close">
+                                <h4 style = "font-weight: normal; font-size: 14px;">Ban Mian <br> Qty: 1<br>Eat In<br>10:00AM<br>Status: Preparing</h4>
+                                </div>
+                                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                                <a onclick = "setTimeout(myTimer,3000);" id = "backtohome" href = "stalls.html" data-transition = "pop" class = "ui-btn" >Back To Home</a>
+
+                        <div data-role="footer" data-position = "fixed">
+                            <h4>IMP 2019 @ NP</h4>
+                        </div><!-- /footer -->
+                    </div><!-- /page -->
+                    
+        </body>
+    </html>
+        

@@ -35,17 +35,53 @@
                 background-image:url(Pics/Curry.jpeg);
                 background-size: 100%;
                 filter: brightness(90%);
+            }        
+            
+            #mypanel a{
+                color: black;
+                text-decoration: none;
+            }
+
+            #mypanel a:visited{
+                color: black;
+                text-decoration: none;
             }
         </style>
     </head>
         <body>
+            <div data-role="header">
+                
+                <div data-role = "panel", id = "mypanel">
+                    <a href = "stalls.html" data-transition="slide" data-direction="reverse" class = "ui-btn" 
+                    style = "
+                    width: 18px;
+                    margin-left: 10px;
+                    "><</a>
+
+                    <br><br>
+                    <h2 style = "text-align: center; font-weight: normal;"><a href = "stalls.html">Home</a></h2>
+                    <hr width = "70%">
+                    <h2 style = "text-align: center; font-weight: normal;"><a href = "stalls.html">My Profile</a></h2>
+                    <hr width = "70%">                    
+                    <h2 style = "text-align: center; font-weight: normal;"><a href = "mycart.html">My Cart</a></h2>
+                    <hr width = "70%">
+                    <h2 style = "text-align: center; font-weight: normal;"><a href = "myorders.html">My Orders</a></h2>
+                    <hr width = "70%">
+                    <h2 style = "text-align: center; font-weight: normal;"><a href = "settings.html">Settings</a></h2>
+                    <hr width = "70%">
+                    <h2 style = "text-align: center; font-weight: normal;"><a href = "Login.html">Log Out</a></h2>
+                    <hr width = "70%">
+                    <h2 style = "text-align: center; font-weight: normal;"><a href = "stalls.html">Contact Us</a></h2>
+                    <div data-role="footer" data-position = "fixed">
+                            <h4>IMP 2019 @NP</h4>
+                        </div><!-- /footer -->
+                </div>
 
         <!-- Home page - Stalls -->
         <div data-role="page" id="stalls">
         
                 <div data-role="header">
-                <a href="index.html" data-transition="slide" data-direction="reverse" class = "ui-btn"><</a>
-    
+                <a href = "#mypanel" data-transition="slide" class = "ui-btn">...</a>
                     <h1>Stalls</h1>
                 </div><!-- /header -->
             
@@ -138,39 +174,6 @@
                 padding:0 2em;">
                 <a href = "Stall1.html" data-transition="pop">Curry</h3></a>
 
-                <button style = 
-                "width: 440px;
-                height: 280px; 
-                margin-left: 25px; 
-                margin-top: 50px;
-                border-radius: 0px;">
-                </button>           
-
-                <h3 style = 
-                "margin: 1 -1em; 
-                margin-top: 1px; 
-                margin-left: 180px; 
-                display:inline-block; 
-                z-index: 1; 
-                padding:0 2em;">
-                <a href = "Stall1.html" data-transition="pop">Stall 6</h3></a>
-
-                <button style = 
-                "width: 440px;
-                height: 280px; 
-                margin-left: 25px; 
-                margin-top: 50px;
-                border-radius: 0px;">
-                </button>
-
-                <h3 style = 
-                "margin: 1 -1em; 
-                margin-top: 1px; 
-                margin-left: 180px; 
-                display:inline-block; 
-                z-index: 1; 
-                padding:0 2em;">
-                <a href = "Stall1.html" data-transition="pop">Stall 7</h3></a>
 
             
                 <div data-role="footer" data-position = "fixed">
